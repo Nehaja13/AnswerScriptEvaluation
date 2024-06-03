@@ -8,7 +8,7 @@ from google.cloud.vision_v1 import types
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'ferrous-pact-309206-db4cd544f0f2.json'
 
 client = vision_v1.ImageAnnotatorClient()
-
+ 
 
 #saving selected image in the program directory for google API processing
 def save_uploaded_file(uploadedfile):
